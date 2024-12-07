@@ -224,19 +224,18 @@ function App() {
           <p className="pech1">Барчасини кўриш<i class="fa-solid fa-arrow-right"></i></p>
         </div>
         <section className="section2">
-          <Swiper className=""
-            onSwiper={setSwiperRef}
-            slidesPerView={4}
-            centeredSlides={true}
-            spaceBetween={30}
-            pagination={{
-              type: 'fraction',
-            }}
-            navigation={true}
-            modules={[Pagination, Navigation]}
 
+          <Swiper
+            slidesPerView={4}
+            spaceBetween={25}
+            freeMode={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[FreeMode, Pagination]}
+            className="mySwiper"
           >
-            <SwiperSlide className='xarid'>
+            <SwiperSlide className='sotib_olish'>
               <img src={micro} alt="" className="xarid_img" />
               <p className="xarid_text">Micro to'lqinli pech/microwave oven</p>
               <div className="oy">122,223 so'mdan / 24 oy</div>
@@ -247,8 +246,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={section_rasm4} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+              <img src={section_rasm4} alt="" className="xarid_img3" />
               <p className="xarid_text">Muzlatgich/Refrigerator</p>
               <div className="oy">252,223 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -260,8 +259,8 @@ function App() {
               </div>
 
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={section_rasm5} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+              <img src={section_rasm5} alt="" className="xarid_img3" />
               <p className="xarid_text">Noutbook/Noutbook</p>
               <div className="oy">200,223 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -272,8 +271,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={section_rasm6} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+              <img src={section_rasm6} alt="" className="xarid_img3" />
               <p className="xarid_text">Televezor/television</p>
               <div className="oy">250.223 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -284,8 +283,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={section_rasm9} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+              <img src={section_rasm9} alt="" className="xarid_img3" />
               <p className="xarid_text">Fenlar/
                 sciences</p>
               <div className="oy">10,823 so'mdan / 24 oy</div>
@@ -297,8 +296,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={section_rasm8} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+              <img src={section_rasm8} alt="" className="xarid_img3" />
               <p className="xarid_text">Kir yuvish mashina/
                 Washing machine</p>
               <div className="oy">122,273 so'mdan / 24 oy</div>
@@ -310,7 +309,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
+
+            <SwiperSlide className='sotib_olish'>
               <img src={tikuv} alt="" className="xarid_img" />
               <p className="xarid_text">Tikuv mashinas/sewing machine</p>
               <div className="oy">50,203 so'mdan / 24 oy</div>
@@ -322,8 +322,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={section_rasm10} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+              <img src={section_rasm10} alt="" className="xarid_img3" />
               <p className="xarid_text">Planshet/planshet</p>
               <div className="oy">125,202 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -334,8 +334,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={section_rasm3} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+              <img src={section_rasm3} alt="" className="xarid_img3" />
               <p className="xarid_text">CHangyutgich/
                 Vacuum cleaner</p>
               <div className="oy">99,523 so'mdan / 24 oy</div>
@@ -346,30 +346,26 @@ function App() {
 
                 </div>
               </div>
-
             </SwiperSlide>
 
 
           </Swiper>
 
-
         </section>
         <section className="section2">
           <p className="pech">Янги маҳсулотлар</p>
-          <Swiper className=""
-            onSwiper={setSwiperRef}
+          <Swiper
             slidesPerView={4}
-            centeredSlides={true}
-            spaceBetween={50}
+            spaceBetween={25}
+            freeMode={true}
             pagination={{
-              type: 'fraction',
+              clickable: true,
             }}
-            navigation={true}
-            modules={[Pagination, Navigation]}
-
+            modules={[FreeMode, Pagination]}
+            className="mySwiper"
           >
-            <SwiperSlide className='xarid'>
-              <img src={micro} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+            <img src={micro} alt="" className="xarid_img3" />
               <p className="xarid_text">Micro to'lqinli pech/microwave oven</p>
               <div className="oy">122,223 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -379,8 +375,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={telefon} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+            <img src={telefon} alt="" className="xarid_img" />
               <p className="xarid_text">Telefon</p>
               <div className="oy">252,223 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -392,8 +388,8 @@ function App() {
               </div>
 
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={soch_dazmol} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+            <img src={soch_dazmol} alt="" className="xarid_img3" />
               <p className="xarid_text">Soch dazmoli</p>
               <div className="oy">10,223 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -404,8 +400,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={electr} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+            <img src={electr} alt="" className="xarid_img3" />
               <p className="xarid_text">Electr ustana</p>
               <div className="oy">10,223 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -416,8 +412,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={electr} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+            <img src={electr} alt="" className="xarid_img3" />
               <p className="xarid_text">Electr ustana</p>
               <div className="oy">10,223 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -428,8 +424,8 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={soc_mashinasi} alt="" className="xarid_img" />
+            <SwiperSlide className='sotib_olish'>
+            <img src={soc_mashinasi} alt="" className="xarid_img3" />
               <p className="xarid_text">Soch mashinasi</p>
               <div className="oy">25.223 so'mdan / 24 oy</div>
               <div className="guruh">
@@ -440,8 +436,9 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xarid'>
-              <img src={electr} alt="" className="xarid_img" />
+
+            <SwiperSlide className='sotib_olish'>
+            <img src={electr} alt="" className="xarid_img3" />
               <p className="xarid_text">Elektr ustara/
                 sciences</p>
               <div className="oy">10,823 so'mdan / 24 oy</div>
@@ -453,6 +450,7 @@ function App() {
                 </div>
               </div>
             </SwiperSlide>
+           
 
 
           </Swiper>

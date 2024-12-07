@@ -202,6 +202,11 @@ append-buttons {
 
 }
 
+.xarid_img3 {
+    width: 100%;
+    height: 210px;
+}
+
 .section2 {
     margin-top: 35px;
 }
@@ -471,6 +476,8 @@ append-buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .f_text4 {
